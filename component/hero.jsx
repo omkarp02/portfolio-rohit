@@ -45,13 +45,13 @@ const Hero = () => {
         </div>
 
         <div className="col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-          <div className="hero-img-container position-relative">
+          {/* <div className="hero-img-container position-relative">
             <Image
               src={ProfileImg}
               alt="profile"
               className="position-absolute hero-img-grey w-100 h-100"
             />
-          </div>
+          </div> */}
         </div>
         <div id="experience"></div>
       </div>

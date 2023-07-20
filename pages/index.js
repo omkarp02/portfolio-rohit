@@ -5,14 +5,18 @@ import Hero from "@/component/hero";
 import Technologies from "@/component/layout/technologies";
 import Testimonial from "@/component/testimonial";
 import Work from "@/component/work";
+import data from "@/data";
 import Head from "next/head";
 export default function Home() {
+
+  const {general} = data
+
   return (
     <>
       <Head>
-        <title>Omkar Pawar</title>
+        <title>{general.title}</title>
         <meta name="author" content="Omkar Pawar" />
-        <meta name="description" content="portfolio of web developer omkar pawar" />
+        <meta name="description" content={general.title} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/omkar.png" />
       </Head>

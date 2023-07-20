@@ -1,4 +1,8 @@
 const data = {
+    general:{
+      initial: 'rp',
+      title: 'Rohit Pawar',
+    },
     hero: {
       titleLineOne: "Hello I'm Rohit,",
       titleLineTwo: "Data Analyst",

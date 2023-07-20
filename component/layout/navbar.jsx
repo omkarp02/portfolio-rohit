@@ -2,6 +2,7 @@ import React from "react";
 import Hamburger from "@/public/hamburger.svg";
 import Image from "next/image";
 import { Lora } from 'next/font/google'
+import data from "@/data";
 
 const font = Lora({
     weight: '400',
@@ -19,13 +20,16 @@ const navList = [
 
 
 const Navbar = () => {
+
+  const {general} = data
+
   return (
     <nav>
       <input type={"checkbox"} id="nav-checkbox" />
       <div className="logo-section">
         <div >
-          <span className={`logo text-primary ${font.className}`}>o</span> 
-          <span className={`logo text-dark ${font.className}`}>p</span> 
+          <span className={`logo text-primary ${font.className}`}>{general.initial[0]}</span> 
+          <span className={`logo text-dark ${font.className}`}>{general.initial[1]}</span> 
         </div>
         <label htmlFor="nav-checkbox" className="hamburger">
           <Image height={30} src={Hamburger} alt="hamburger.svg" />

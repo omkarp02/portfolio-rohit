@@ -8,7 +8,7 @@ const data = {
       titleLineTwo: "Data Analyst",
       titleLineThree: "based in India",
       description:
-        "I'm a Data Analyst and a data enthusiast by heart. I have more than 1 year of experience in Data Domain. I have completed many projects. I have worked on data pre-processing as well geo analysis in my current organization .",
+        "I'm a Data Analyst and a data enthusiast by heart. I have more than 1 year of experience in Data Domain. I have worked on data pre-processing as well geo analysis in my current organization.",
       buttonText: "GET IN TOUCH",
     },
     experience: {
@@ -19,9 +19,9 @@ const data = {
           position: "Spatial Data Specialist 1",
           company: "Here Technology",
           points: [
-            "Developing and maintaining Mapping Data using ArcGIS Pro, SQL,QGIS and other related technologies.",
+            "Developing and maintaining Mapping Data using ArcGIS Pro, SQL, QGIS and other related technologies.",
             "Worked as Data Specialist and Quality Analyst",
-            "Led a team of six developer as SME for Data extracting, Data cleaning and Data merging.",
+            "Led a team of developer's as SME for Data extracting, Data cleaning and Data merging.",
             "Participating in project reviews and providing constructive feedback to other developers.",
           ],
           companyLogo: "/Here.jpg",
@@ -29,7 +29,7 @@ const data = {
         },
        
       ],
-    },
+    },  
     technology: {
       heading: "Technologies",
       technology: [

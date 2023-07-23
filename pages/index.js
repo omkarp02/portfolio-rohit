@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="author" content="Omkar Pawar" />
         <meta name="description" content={general.title} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/omkar.png" />
+        <link rel="icon" href="/profile.png" />
       </Head>
       <div className="top-padding">
         <div id="home" className="mb-3"></div>
@@ -28,7 +28,7 @@ export default function Home() {
         <Work />
         {/* <Testimonial /> */}
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

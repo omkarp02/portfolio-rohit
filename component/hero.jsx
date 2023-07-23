@@ -3,7 +3,7 @@ import CustomButton from "./customComponent/customButton";
 import SectionWrapper from "@/hoc/sectionwrapper";
 import data from "@/data";
 import ProfileImgTwo from "@/public/profile3.svg";
-import ProfileImg from "@/public/profile.svg";
+import ProfileImg from "@/public/profile.png";
 import DownloadSvg from "@/public/download.svg";
 import Image from "next/image";
 import { useRouter } from "next/router";
@@ -29,7 +29,7 @@ const Hero = () => {
               onClick={() => router.push("#contact")}
             />
             <a
-              href="/OmkarResume.pdf"
+              href="/Rohit_Pawar.pdf"
               className="downloadbtn bg-gradient text-white text-center mx-4"
               download
             >
@@ -45,13 +45,13 @@ const Hero = () => {
         </div>
 
         <div className="col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-          {/* <div className="hero-img-container position-relative">
+          <div className="hero-img-container position-relative">
             <Image
               src={ProfileImg}
               alt="profile"
               className="position-absolute hero-img-grey w-100 h-100"
             />
-          </div> */}
+          </div>
         </div>
         <div id="experience"></div>
       </div>
